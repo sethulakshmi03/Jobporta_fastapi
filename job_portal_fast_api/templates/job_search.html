@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job search</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+        <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>      
+    </head>
+    <body>
+        <div class="ui input">
+            <input type="text" placeholder="Job Role....">
+        </div>
+        <div class="ui input">
+            <input type="text" placeholder="Location">
+        </div>
+        <button class="ui primary button">
+            Filter
+          </button>
+        <table class="ui celled table">
+            <thead>
+              <tr>
+                    <th>Jobe Role</th>
+                    <th>Location</th>
+                    <th>Description</th>
+                    <th>Experience</th>
+                    <th>Salary</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="jobrole">Software Engineer</td>
+                <td data-label="location">Chennai</td>
+                <td data-label="description">We are looking for software engineer</td>
+                <td data-label="experience">2</td>
+                <td data-label="salary">20000/m</td>
+                <td data-label="apply"><a href="#">apply</a></td>
+              </tr>
+              <tr>
+                <td data-label="jobrole">Senior Software Engineer</td>
+                <td data-label="location">Chennai</td>
+                <td data-label="description">We are looking for  Senior software engineer</td>
+                <td data-label="experience">6</td>
+                <td data-label="salary">40000/m</td>
+                <td data-label="apply"><a href="#">apply</a></td>
+              </tr>
+              <tr>
+                <td data-label="jobrole">Tech Lead</td>
+                <td data-label="location">Chennai</td>
+                <td data-label="description">We are looking for Tech Lead</td>
+                <td data-label="experience">4</td>
+                <td data-label="salary">30000/m</td>
+                <td data-label="apply"><a href="#">apply</a></td>
+              </tr>
+            </tbody>
+          </table>
+    </body>
+</html>
